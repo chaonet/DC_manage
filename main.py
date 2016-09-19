@@ -16,10 +16,7 @@ logs.append(echo)
 
 sysname_user = re.findall(r"<.*>", echo)[0].strip('>').strip('<')
 
-###
 re.findall(r"<.*>", echo)
-
-###
 
 # 采集数据命令
 
